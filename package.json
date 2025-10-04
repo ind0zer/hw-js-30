@@ -1,8 +1,8 @@
 {
   "name": "hw-js-30",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
-  "homepage": "https://indozer.github.io/hw-js-30",
+  "homepage": "https://github.com/ind0zer/hw-js-30",
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
     "@testing-library/jest-dom": "^5.16.3",
