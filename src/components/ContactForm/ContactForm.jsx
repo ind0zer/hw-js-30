@@ -12,7 +12,7 @@ export const ContactForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
     
-    const isDuplicate = contacts.some(
+    const isDuplicate = contacts && contacts.some(
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
     
