@@ -1,16 +1,15 @@
-import { ContactForm } from './components/ContactForm/ContactForm';
-import { ContactList } from './components/ContactList/ContactList';
-import { Filter } from './components/Filter/Filter';
+import { TodoForm } from './components/TodoForm/TodoForm';
+import { TodoList } from './components/TodoList/TodoList';
+import { TodoFilter } from './components/TodoFilter/TodoFilter';
 import './App.css';
 
 export const App = () => {
   return (
     <div className="container">
-      <h1 className="title">Phonebook</h1>
-      <ContactForm />
-      <h2 className="subtitle">Contacts</h2>
-      <Filter />
-      <ContactList />
+      <h1 className="title">Todo List</h1>
+      <TodoForm />
+      <TodoFilter />
+      <TodoList />
     </div>
   );
 };
