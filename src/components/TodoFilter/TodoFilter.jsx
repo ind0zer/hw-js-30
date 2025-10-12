@@ -4,7 +4,7 @@ import './TodoFilter.css';
 
 export const TodoFilter = () => {
   const dispatch = useDispatch();
-  const filter = useSelector(state => state.todos.filter);
+  const filter = useSelector(state => state.filter);
 
   const handleFilterChange = (newFilter) => {
     dispatch(setTodoFilter(newFilter));

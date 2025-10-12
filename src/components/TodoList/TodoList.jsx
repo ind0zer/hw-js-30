@@ -3,8 +3,8 @@ import { TodoItem } from '../TodoItem/TodoItem';
 import './TodoList.css';
 
 export const TodoList = () => {
-  const todos = useSelector(state => state.todos.todos);
-  const filter = useSelector(state => state.todos.filter);
+  const todos = useSelector(state => state.todos);
+  const filter = useSelector(state => state.filter);
 
   const getFilteredTodos = () => {
     switch (filter) {
